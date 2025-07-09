@@ -1,6 +1,6 @@
 from pygame import *
 from random import randint
-from time import sleep
+from time impport sleep
 
 # --- Player ---
 direction = 'right'
@@ -138,7 +138,7 @@ while run:
                 timer = 1
                 game_state = 'start'
             elif game_state == 'dead' and e.key == K_q:
-                sleep(1)
+                time.delay(300)
                 run = False
     
     mouse.set_visible(False) 
